@@ -9,7 +9,7 @@ WriteMakefile(
               ABSTRACT_FROM    => 'lib/PLS.pm',
               EXE_FILES        => ['bin/pls'],
               LICENSE          => 'perl_5',
-              MIN_PERL_VERSION => 5.026000,
+              MIN_PERL_VERSION => 5.020000,
               PREREQ_PM        => {
                             'IO::Async'     => 0.79,
                             'Future'        => 0.47,
