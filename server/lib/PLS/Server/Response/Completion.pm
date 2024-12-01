@@ -294,7 +294,7 @@ sub get_packages
         push @packages, @{$document->{index}->get_all_packages()};
     }
 
-    return [map { {label => $_, kind => 7} } List::Util::uniq sort @packages];
+    return [map { {label => $_, kind => 7} } List::Util::uniq(sort @packages)];
 } ## end sub get_packages
 
 sub get_constants
